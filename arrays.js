@@ -35,8 +35,7 @@ function destructivelyRemoveElementFromBeginningOfArray(catNames){
 }
 
 function removeElementFromBeginningOfArray(catNames){
-  catNames.slice(1)
-  return catNames
+  return catNames.slice(1)
 }
 
 function destructivelyRemoveElementFromEndOfArray(catNames){
