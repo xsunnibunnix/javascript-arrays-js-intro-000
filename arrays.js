@@ -28,3 +28,8 @@ function destructivelyAddElementToEndOfArray(catNames,n){
 function accessElementInArray(catNames,n){
   return catNames[n]
 }
+
+function destructivelyRemoveElementFromBeginningOfArray(catNames){
+  catNames.shift()
+  return catNames;
+}
