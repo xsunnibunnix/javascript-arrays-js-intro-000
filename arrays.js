@@ -7,11 +7,12 @@ var chocolateBars = [
 
 function addElementToBeginningOfArray(n){
   var catNames = ["Belle", "Ariel", "Jasmine"]
-  return [n,...catNames];
+  [n, ...catNames]
+  return catNames
 }
 
 function destructivelyAddElementToBeginningOfArray(n){
   var catNames = ["Belle", "Ariel", "Jasmine"]
-  catNames.unshift(n)
+  catNames = [n, ...catNames]
   return catNames;
 }
