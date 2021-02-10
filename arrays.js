@@ -12,5 +12,6 @@ function addElementToBeginningOfArray(catNames,n){
 
 var catNames = ["Belle", "Ariel", "Jasmine"];
 function destructivelyAddElementToBeginningOfArray(catNames,n){
-  return catNames.unshift(n);
+  catNames.unshift(n);
+  return catNames;
 }
