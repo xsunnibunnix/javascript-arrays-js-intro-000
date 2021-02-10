@@ -6,13 +6,13 @@ var chocolateBars = [
 ]
 
 function addElementToBeginningOfArray(n){
-  var catNames = ["Belle", "Ariel", "Jasmine"]
-  [n, ...catNames]
-  return catNames
+  var catNames = ["Belle", "Ariel", "Jasmine"];
+  [n, ...catNames];
+  return catNames;
 }
 
 function destructivelyAddElementToBeginningOfArray(n){
-  var catNames = ["Belle", "Ariel", "Jasmine"]
-  catNames = [n, ...catNames]
+  var catNames = ["Belle", "Ariel", "Jasmine"];
+  catNames = [n, ...catNames];
   return catNames;
 }
