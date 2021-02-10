@@ -25,6 +25,6 @@ function destructivelyAddElementToEndOfArray(catNames,n){
   return catNames;
 }
 
-function accessElementInArray(catNames,catNames[n]){
-  return n
+function accessElementInArray(catNames,n){
+  return catNames[n]
 }
