@@ -24,3 +24,7 @@ function destructivelyAddElementToEndOfArray(catNames,n){
   catNames.push(n)
   return catNames;
 }
+
+function accessElementInArray(catNames,catNames[n]){
+  return n
+}
