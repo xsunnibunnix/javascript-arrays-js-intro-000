@@ -5,14 +5,14 @@ var chocolateBars = [
   "skittles"
 ]
 
-function addElementToBeginningOfArray(n){
-  var catNames = ["Belle", "Ariel", "Jasmine"];
-  [n, ...catNames];
+var catNames = ["Belle", "Ariel", "Jasmine"];
+function addElementToBeginningOfArray(catNames,n){
+  [n, ...catNames]
   return catNames;
 }
 
-function destructivelyAddElementToBeginningOfArray(n){
-  var catNames = ["Belle", "Ariel", "Jasmine"];
+var catNames = ["Belle", "Ariel", "Jasmine"];
+function destructivelyAddElementToBeginningOfArray(catNames,n){
   catNames = catNames.unshift(n,...catNames);
   return catNames;
 }
