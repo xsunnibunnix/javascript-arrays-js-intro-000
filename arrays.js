@@ -42,3 +42,7 @@ function destructivelyRemoveElementFromEndOfArray(catNames){
   catNames.pop()
   return catNames
 }
+
+function removeElementFromEndOfArray(catNames){
+  return catNames.slice(0, catNames.length - 1);
+}
