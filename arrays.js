@@ -13,6 +13,6 @@ function addElementToBeginningOfArray(n){
 
 function destructivelyAddElementToBeginningOfArray(n){
   var catNames = ["Belle", "Ariel", "Jasmine"];
-  catNames = [n, ...catNames];
+  catNames = catNames.unshift(n,...catNames);
   return catNames;
 }
