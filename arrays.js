@@ -15,3 +15,12 @@ function destructivelyAddElementToBeginningOfArray(catNames,n){
   catNames.unshift(n);
   return catNames;
 }
+
+function addElementToEndOfArray(catNames,n){
+  return [...catNames, n];
+}
+
+function destructivelyAddElementToEndOfArray(catNames,n){
+  catNames.push(n)
+  return catNames;
+}
