@@ -7,8 +7,7 @@ var chocolateBars = [
 
 var catNames = ["Belle", "Ariel", "Jasmine"];
 function addElementToBeginningOfArray(catNames,n){
-  [n, ...catNames]
-  return catNames;
+  return [n, ...catNames]
 }
 
 var catNames = ["Belle", "Ariel", "Jasmine"];
