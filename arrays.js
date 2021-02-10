@@ -33,3 +33,13 @@ function destructivelyRemoveElementFromBeginningOfArray(catNames){
   catNames.shift()
   return catNames;
 }
+
+function removeElementFromBeginningOfArray(catNames){
+  catNames.slice(1)
+  return catNames
+}
+
+function destructivelyRemoveElementFromEndOfArray(catNames){
+  catNames.pop()
+  return catNames
+}
